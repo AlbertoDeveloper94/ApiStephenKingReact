@@ -21,7 +21,7 @@ function Navbar() {
       <ul
         className={`flex flex-col lg:flex-row justify-around items-center  lg:w-[60%] w-full lg:flex ${isOpen ? "flex" : "hidden"}`}
       >
-        <li className="flex-1 text-center hover:bg-green-500 mt-4 lg:mt-0 text-2xl">
+        <li className="flex-1 text-center hover:bg-green-500 mt-4 lg:mt-0 text-2xl text-terror">
           <Link to="/">Home</Link>
         </li>
         <li className="flex-1 text-center hover:bg-green-500 mt-3 mb-3 text-2xl">

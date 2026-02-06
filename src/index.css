@@ -6,12 +6,13 @@
   .text-terror p,
   .text-terror li,
   .text-terror button {
-    background: linear-gradient(to bottom, #450a0a, #991b1b, #a12f2f);
+    background: linear-gradient(to bottom, #c90606, #991b1b, #a12f2f);
     background-clip: text;
     color: transparent;
   }
 
-  html,
+
+ html,
   body {
     background-color: black;
   }
