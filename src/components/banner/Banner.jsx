@@ -1,15 +1,35 @@
-function Banner({ title }) {
+function Banner({ title, isbn,year, className }) {
   return (
-    <section className="bg-[url('src/assets/DontHaveFearBook.jpg')] bg-contain bg-center bg-no-repeat text-white flex flex-col lg:h-screen h-dvh overflow-hidden">
-      <div>
-        <p className="text-[12px] text-red-500 tracking-[3px] mt-4">Pesadilla de hoy</p>
-        <h3 className="text-2xl my-2">Libro del día</h3>
+    <section className={`text-white px-4 pt-6 relative ${className}`}>
+      <div className="mb-4 absolute z-10 top-15 left-15">
+        <p className="text-[11px] tracking-[4px] text-red-500">
+          — Pesadilla de hoy
+        </p>
+        <h2 className="text-3xl font-serif italic">Libro del día</h2>
       </div>
-      <div className=" flex-1 flex flex-col justify-end items-start mb-5">
-        <h2 className="text-5xl">{title}</h2>
-        <button className="bg-red-500 py-3 px-8 rounded-4xl">Explore {title}</button>
+
+      <div className=" relative h-full rounded-3xl overflow-hidden bg-[url('src/assets/bookImages/doctorSleepBook.jpg')] bg-contain bg-center">
+        <div className="absolute inset-0 bg-linear-to-b from-black/20 via-black/70 to-black"></div>
+
+        <div className="relative h-full p-6 flex flex-col justify-end">
+          <span className="inline-flex items-center gap-2 text-[10px] tracking-widest uppercase border border-red-500/40 px-3 py-1 rounded-full w-fit mb-4">
+            <span className="w-2 h-2 bg-red-500 rounded-full"></span>
+            Top Recommendation
+          </span>
+
+          <h1 className="text-4xl font-serif font-bold mb-2">{title}</h1>
+          <p className="text-2xl">{year}</p>
+          <p>ISBN: {isbn}</p>
+
+          <p className="text-sm italic text-white/70 max-w-xs mb-6 border-l-2 border-red-500 pl-4">"Todos flotan aquí...""</p>
+
+          <button className="w-fit bg-red-600 px-8 py-3 rounded-full text-sm">
+            Explore Derry →
+          </button>
+        </div>
       </div>
     </section>
   );
 }
+
 export default Banner;
