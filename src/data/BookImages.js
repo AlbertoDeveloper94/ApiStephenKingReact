@@ -1,6 +1,6 @@
 import salemslot from "../assets/libraryBooksImages/salemslotBook.webp";
 import doctorSleep from "../assets/libraryBooksImages/doctorSleepBook.jpg";
-import Carrie from "../assets/libraryBooksImages/Carrie.jpg";
+import Carrie from "../assets/libraryBooksImages/carrie.jpg";
 import Shining from "../assets/libraryBooksImages/theShiningBook.jpg";
 import Rage from "../assets/libraryBooksImages/rageBook.webp";
 import Stand from "../assets/libraryBooksImages/theStandBook.jpg";
