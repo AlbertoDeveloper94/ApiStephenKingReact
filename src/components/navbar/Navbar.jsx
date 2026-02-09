@@ -24,12 +24,6 @@ function Navbar() {
         <li className="flex-1 text-center hover:bg-green-500 mt-4 lg:mt-0 text-2xl text-terror">
           <Link to="/">Home</Link>
         </li>
-        <li className="flex-1 text-center hover:bg-green-500 mt-3 mb-3 text-2xl">
-          <Link to="/ejemplo1">Ejemplo1</Link>
-        </li>
-        <li className="flex-1 text-center hover:bg-green-500 text-2xl">
-          <Link to="/ejemplo2">Ejemplo2</Link>
-        </li>
       </ul>
     </nav>
   );

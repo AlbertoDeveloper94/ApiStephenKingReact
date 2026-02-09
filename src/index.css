@@ -11,9 +11,10 @@
     color: transparent;
   }
 
-
- html,
+  html,
   body {
+    color: white;
     background-color: black;
   }
 }
+

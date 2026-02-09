@@ -8,7 +8,7 @@ function Banner({ title, isbn,year, className }) {
         <h2 className="text-3xl font-serif italic">Libro del día</h2>
       </div>
 
-      <div className=" relative h-full rounded-3xl overflow-hidden bg-[url('src/assets/bookImages/doctorSleepBook.jpg')] bg-contain bg-center">
+      <div className=" relative h-full rounded-3xl overflow-hidden bg-[url('src/assets/libraryBooksImages/doctorSleepBook.jpg')] bg-cover bg-center">
         <div className="absolute inset-0 bg-linear-to-b from-black/20 via-black/70 to-black"></div>
 
         <div className="relative h-full p-6 flex flex-col justify-end">
