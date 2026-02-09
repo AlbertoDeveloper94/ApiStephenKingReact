@@ -1,16 +1,60 @@
-# React + Vite
+# Stephen King Api React
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![Screenshot Api Stephen King](src/assets/screenshot.png)
 
-Currently, two official plugins are available:
+## Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Stack Tecnhologies
+- Vite
+- React
+- Axios
+- React Router
+- Tailwind CSS
+- Git
 
-## React Compiler
+## Installation & Run
+## Install Dependencies
+```
+npm install
+```
 
-The React Compiler is currently not compatible with SWC. See [this issue](https://github.com/vitejs/vite-plugin-react/issues/428) for tracking the progress.
+## Run
+```
+npm run dev
+```
 
-## Expanding the ESLint configuration
+## Estructura del proyecto
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```
+ApiStephenKingReact/
+├── node_modules/ # Dependencias del proyecto
+├── public/ # Archivos públicos (HTML, favicon, etc.)
+├── src/ # Código fuente
+│ ├── assets/ # Recursos como imágenes, estilos, fuentes
+│ ├── components/ # Componentes reutilizables de React
+│ │ ├── banner/
+│ │ │ └── Banner.jsx
+│ │ ├── library/
+│ │ └── navbar/
+│ │ ├── Navbar.jsx
+│ │ └── Header.jsx
+│ ├── data/ # Datos estáticos o de prueba
+│ ├── pages/ # Páginas principales de la app
+│ │ └── Home.jsx
+│ ├── services/ # Llamadas a APIs y lógica de backend
+│ │ └── stephenKingApi.js
+│ ├── App.css # Estilos globales de la aplicación
+│ ├── App.jsx # Componente raíz
+│ ├── index.css # Estilos base
+│ └── main.jsx # Punto de entrada de React
+├── .gitignore # Archivos y carpetas ignoradas por git
+├── eslint.config.js # Configuración de ESLint
+├── index.html # HTML principal
+├── package.json # Dependencias y scripts del proyecto
+├── package-lock.json # Versionado de dependencias
+├── README.md # Este archivo
+└── vite.config.js # Configuración de Vite
+```
+
+## Author
+Alberto Garcia Poncet
